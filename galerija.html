@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija Smjerova - Online Škola</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .galerija {
+            display: table;
+            width: 100%;
+        }
+
+        .galerija .smjer {
+            display: table-cell;
+            width: 25%;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        .galerija img {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        .galerija .smjer p {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galerija Smjerova</h1>
+        <nav>
+            <a href="index.html">Početna</a> |
+            <a href="onama.html">O nama</a> |
+            <a href="galerija.html">Galerija</a> |
+            <a href="profesori.html">Profesori</a> |
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Naši Smjerovi</h2>
+        <div class="galerija">
+            <div class="smjer">
+                <img src="./slike/smjerovi/marketing.jpg" alt="Marketing">
+                <p>Marketing</p>
+            </div>
+            <div class="smjer">
+                <img src="./slike/smjerovi/muzika.jpg" alt="Muzika">
+                <p>Muzika</p>
+            </div>
+            <div class="smjer">
+                <img src="./slike/smjerovi/programiranje.jpg" alt="Programiranje">
+                <p>Programiranje</p>
+            </div>
+            <div class="smjer">
+                <img src="./slike/smjerovi/dizajn.jpg" alt="Dizajn">
+                <p>Dizajn</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Online Škola &copy; 2024</p>
+    </footer>
+</body>
+</html>
